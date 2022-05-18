@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gate</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="Header"> 
+    <u>Billing Address</u>
+    </div>
+    <hr>
+  
+    <div class="info" >
+        <p class="name"> Name:<input type="text"></p>
+        <p class="email"> Email:<input type="email"></p>
+        <p class="phone no"> Phone No:<input type="text"></p>
+        <p class="address"> Address:<input type="text"></p>
+        <p class="state"> State:<input type="text"></p>
+        <p class="pin"> Pin Code:<input type="number"></p>
+    </div>
+    <div>
+       <p class="Header"> <u>Payment Form</u></p>
+    </div>
+    <hr>
+ 
+    <div class="card"><img class="ruppay" src="Ruppay.jpg" alt="click here">
+        <img class="visa"  src="visa.png" alt="click here">
+        <img class="apple"  src="apple.png" alt="click here">
+        <img class="paypal"  src="paypal.png" alt="click here">
+        
+        <p class="Card type"> Card type:
+            <select name="card_type" id="card_type">
+                <option value="Card">---Select the Card---</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Ruppay">Ruppay</option>
+                <option value="Apple Pay">Apple Pay</option>
+                <option value="Paypal">Paypal</option>
+            </select>
+        </p>
+        <p class="Card Holder name"> Card Holder name:<input type="text"></p>
+        <p class="Credit Card No"> Credit Card No:<input type="text"></p>
+        <p class="Expiry"> Expiry Date:<input type="date"></p>
+        <p class="CVV"> CVV:<input type="number"></p>
+    </div>
+    <div class="pay">
+        Pay
+    </div>
+    
+</body>
+</html>
